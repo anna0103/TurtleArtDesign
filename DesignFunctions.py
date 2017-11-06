@@ -1,9 +1,9 @@
-def ah(t,c,s):
-    for x in range(10):
-        t.forward(s)
+def ah(t,c,s):  #def ah function
+    for x in range(10): #for loop
+        t.forward(s) # move forward
 
-def ha(t,c,size):
-    t.color(c)
+def ha(t,c,size): #def ha function
+    t.color(c) 
     for x in range(10):
         t.circle(x)
         t.forward(size)
